@@ -2,15 +2,15 @@ import { Album, List } from "lucide-react"
 
 export default function Menu(){
     return (
-        <div className="bg-blue-400 w-full rounded-md p-3 flex flex-row items-center justify-between">
+        <div className="bg-white w-full rounded-md p-3 flex flex-row items-center justify-between">
             <div>
                 <input 
-                    className="rounded-xl p-2 w-96"
+                    className="rounded-xl p-2 w-96 border border-gray-300"
                     placeholder="Search"
                 />
 
                 <input 
-                    className="rounded-xl p-2 w-96 ms-4"
+                    className="rounded-xl p-2 w-96 ms-4  border border-gray-300"
                     placeholder="Monday"
                 />
             </div>

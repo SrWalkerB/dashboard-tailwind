@@ -9,10 +9,12 @@ export default function SideBar(){
 
             <nav className="mt-2 p-1">
                 <ul>
-                    <SideBarItem />
-                    <SideBarItem />
-                    <SideBarItem />
-                    <SideBarItem />
+                    <SideBarItem title="Dashboard" />
+                    <SideBarItem title="Projects" />
+                    <SideBarItem title="Task List" />
+                    <SideBarItem title="Services" />
+                    <SideBarItem title="Notifications" />
+                    <SideBarItem title="Chart" />
                 </ul>
             </nav>
       </div>
